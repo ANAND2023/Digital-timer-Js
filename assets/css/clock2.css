@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+.main{
+
+width: 100%;
+
+height: 100vh;
+
+/* background: #000; */
+
+/* color: white; */
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+#timer{
+    
+text-align: center;
+    
+font-size: 27px;
+    
+color: rgb(255 137 184);
+}
+.main .sqare{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    width: 400px;
+    /* border: 3px solid rgb(200, 255, 0); */
+    height: 465px;
+    /* padding: 90px; */
+    display: flex;
+    flex-direction: column;
+    /* font-size: 0; */
+    justify-content: center;
+    align-items: center;
+    height: 401px;
+    /* nt: center; */
+}
+.main .sqare .circle{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; */
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(255 137 184);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .sqare h2{
+    padding: 20px;
+    /* margin-top: 40px; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 20px #ff99cc,
+    -2px 1px 30px #ff99cc;
+}
+/* .main .sqare h2{
+    text-align: center;
+    padding: 20px 5px;
+    color: rgb(255, 2, 103);
+    
+} */
+
+.main .sqare .circle .box{
+    
+}
+.main .sqare .inputTag{
+
+text-align: center;
+
+margin-top: 34px;
+}
+.main .sqare .inputTag input{
+text-align: center;
+
+padding: 6px 2px;
+
+/* color: green; */
+
+color: rgb(255 137 184);
+
+font-weight: 700;
+}
+
+.main .sqare .circle .ShowTimer{
+
+}
+.main .sqare .circle .button{
+
+text-align: center;
+
+margin-top: 30px;
+}
+.main .sqare .circle .btn{
+color:white;
+padding: 5px;
+
+margin: 0 7px 0 7px;
+
+border: none;
+
+width: 48px;
+
+border-radius: 2px;
+}
+.main .sqare .circle .start{
+
+background: rgb(231, 77, 103);
+
+}
+.main .sqare .circle .start:hover{
+    background:rgb(245, 152, 168);
+}
+.main .sqare .circle .reset{
+
+    background: rgb(231, 77, 103);
+}
+.main .sqare .circle .reset:hover{
+    background: rgb(228, 104, 124);
+}
+
+
+

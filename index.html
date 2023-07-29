@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Decrement Timer</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title> Timer</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/clock2.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="sqare">
+                <h2>stopwatch</h2>
+                <div class="circle">
+                         
+                   <div class="box">
+                    <div class="ShowTimer">
+                        <div id="timer">00:00:00</div>
+                    </div>
+                    <div class="button">
+                        <button class="btn start" id="btn" onclick="changebtn()">Start</button>
+                        <button class="btn reset" onclick="resetTimer()">Reset</button>
+                    </div>
+                   </div>
+
+
+                </div>
+                <div class="inputTag">
+                    <input type="number" id="hours" min="0" max="23" value="00">
+                    <input type="number" id="minutes" min="0" max="59" value="00">
+                    <input type="number" id="seconds" min="0" max="59" value="00">
+                </div>
+            </div>
+        </div>
+        <script src="./assets/js/index.js">
+           
+        </script>
+    </body>
+
+    </html>
